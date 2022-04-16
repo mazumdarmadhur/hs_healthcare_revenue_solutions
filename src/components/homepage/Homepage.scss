@@ -43,11 +43,27 @@
   padding-right: 20%;
 }
 
-.work__content .check{
-    color: var(--secondary-color);
+.work__content .check {
+  color: var(--secondary-color);
 }
 
-.list{
-    
+.heading__col {
+  color: var(--secondary-color);
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 40px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
+.text__col {
+  color: #828282 !important;
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem !important;
+  line-height: 32px;
+}
+
 // WORK SECTION ENDS
