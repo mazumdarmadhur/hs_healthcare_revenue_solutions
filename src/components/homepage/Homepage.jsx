@@ -4,6 +4,7 @@ import './Homepage.scss'
 import Welcome from './Welcome'
 import Work from './Work'
 import OurService from './OurService'
+import Footer from '../footer/Footer'
 
 const Homepage = () => {
   return (
@@ -11,6 +12,7 @@ const Homepage = () => {
       <Welcome />
       <Work />
       <OurService />
+      <Footer />
     </>
   )
 }
