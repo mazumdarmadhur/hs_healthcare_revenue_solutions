@@ -6,6 +6,7 @@ import './App.scss';
 const App = () => {
   return (
     <>
+      <Nav />
       <Routes>
         <Route exact path='/about' element={<About />} />
         <Route exact path='/' element={<Homepage />} />
