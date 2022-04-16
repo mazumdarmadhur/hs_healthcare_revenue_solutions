@@ -1,3 +1,4 @@
+// WELCOME SECTION STARTS
 .welcome__heading {
   font-family: var(--font-base);
   font-weight: 700 !important;
@@ -23,3 +24,23 @@
     text-decoration: underline #e19e20 !important;
   }
 }
+
+// WELCOME SECTION ENDS
+
+// WORK SECTION STARTS
+.work__bg {
+  background: #f4faff;
+}
+
+.work__heading {
+  font-family: var(--head-font);
+  color: #000000 !important;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 58px;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+// WORK SECTION ENDS
