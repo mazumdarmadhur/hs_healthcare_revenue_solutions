@@ -1,9 +1,14 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import './Homepage.scss'
+import Welcome from '../welcome/Welcome'
 
 const Homepage = () => {
   return (
-    <div>Welcome Home</div>
+    <>
+      <Welcome />
+
+    </>
   )
 }
 

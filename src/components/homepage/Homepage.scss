@@ -1,0 +1,25 @@
+.welcome__heading {
+  font-family: var(--font-base);
+  font-weight: 700 !important;
+  font-size: 2rem !important;
+  text-transform: uppercase !important;
+  line-height: 40px;
+  letter-spacing: 0.2em;
+  color: var(--secondary-color);
+}
+
+.welcome__text {
+  font-family: var(--font-base);
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.25em;
+  text-transform: capitalize;
+
+  .know__more {
+    font-weight: 700 !important;
+    color: #000000 !important;
+    text-decoration: underline #e19e20 !important;
+  }
+}

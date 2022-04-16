@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -10,10 +12,10 @@
 }
 
 :root {
-  --font-base: "DM Sans", sans-serif;
+  --font-base: "Mulish", sans-serif;
   --logo-font: "Sacramento", cursive;
   --primary-color: #edf2f8;
-  --secondary-color: #313bac;
+  --secondary-color: #0091DD;
   --third-color: #fcaf16;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;

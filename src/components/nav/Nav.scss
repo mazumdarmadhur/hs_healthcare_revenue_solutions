@@ -1,0 +1,47 @@
+.nav__bg{
+    background: rgba(0, 0, 0, 0.9) !important;
+}
+.navbar {
+  font-family: var(--font-base);
+  .navbar-brand {
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    color: #fff !important;
+    line-height: 30px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  a {
+    font-weight: 400 !important;
+    font-size: 1.12rem !important;
+    text-transform: capitalize !important;
+    color: #828282 !important;
+
+    &:hover {
+      color: #ffffff !important;
+    }
+    @media (max-width: 991px){
+        text-align: center !important;
+    }
+  }
+  .active {
+    font-weight: bold !important;
+    color: #fff !important;
+    background: rgba(0, 145, 221, 1);
+    border-radius: 5%;
+
+    @media (max-width: 991px){
+        border-radius: 0% !important;
+    }
+  }
+}
+
+.navbar-toggler{
+    // color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+.navbar-toggler-icon{
+    background-color: #0091dd !important;
+}
