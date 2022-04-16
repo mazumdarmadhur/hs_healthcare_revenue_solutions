@@ -1,10 +1,16 @@
 import React from 'react';
-// import './App.scss';
+import { About, Contact, Footer, Homepage, Nav, Services } from './components';
+import './App.scss';
 
 const App = () => {
   return (
     <>
-      <h1>Hello</h1>
+      <Homepage />
+      <Nav />
+      <About />
+      <Contact />
+      <Services />
+      <Footer />
     </>
   );
 };
