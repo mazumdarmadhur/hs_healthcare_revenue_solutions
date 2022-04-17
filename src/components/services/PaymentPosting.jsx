@@ -24,7 +24,6 @@ const PaymentPosting = () => {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }
