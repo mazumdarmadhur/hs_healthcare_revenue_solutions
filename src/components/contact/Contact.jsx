@@ -28,7 +28,7 @@ const Contact = () => {
               <div className="row">
                 <div className="col-md-8">
 
-                  <div className=" ">
+                  <div className="contact__form">
                     <form /*ref={form} onSubmit={sendEmail} */ className="app__footer-form d-flex align-items-center justify-content-center">
 
                       <div className="d-flex align-items-center justify-content-center">
@@ -68,7 +68,7 @@ const Contact = () => {
                 </div>
 
                 <div className="col-md-4 find__bg">
-                  <div className="d-grid gap-2 text__colo">
+                  <div className="d-grid gap-2 text__colo contact__form">
                     <h2>FIND US</h2>
                     <div>
                       <span className='check'><HiLocationMarker /> </span>
