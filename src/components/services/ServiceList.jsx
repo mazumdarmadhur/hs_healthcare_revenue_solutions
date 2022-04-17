@@ -13,12 +13,42 @@ const data = [
     {
         id: 2,
         link: '/PaymentPosting',
-        title: 'Payment_Posting',
+        title: 'PaymentPosting',
     },
     {
         id: 3,
-        link: '/',
-        title: 'End to End ',
+        link: '/ClaimScrubbingSubmission',
+        title: 'Claim Scrubbing/Submission ',
+    },
+    {
+        id: 4,
+        link: '/ClaimRejection',
+        title: 'Claim Rejection',
+    },
+    {
+        id: 5,
+        link: '/EftEra',
+        title: 'EFT/ERA  ',
+    },
+    {
+        id: 6,
+        link: '/Credentialing',
+        title: 'Credentialing and Contracting',
+    },
+    {
+        id: 7,
+        link: '/Audit',
+        title: 'Audit/Code Review',
+    },
+    {
+        id: 8,
+        link: '/ManagementOversite',
+        title: 'Management Oversite',
+    },
+    {
+        id: 9,
+        link: '/PatientStatement',
+        title: 'Patient Statements',
     },
 ]
 

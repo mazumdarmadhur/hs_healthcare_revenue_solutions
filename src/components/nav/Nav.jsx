@@ -58,11 +58,23 @@ const Nav = () => {
                       </a>
 
                       <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><NavLink className="dropdown-item" to="/RevenueCycleManagement">Revenue_Cycle_Management</NavLink>
+                        <li><NavLink className="dropdown-item" to="/RevenueCycleManagement">Revenue Cycle Management</NavLink>
                         </li>
-                        <li><NavLink className="dropdown-item" to="/PaymentPosting">Payment_Posting</NavLink>
+                        <li><NavLink className="dropdown-item" to="/PaymentPosting">Payment Posting</NavLink>
                         </li>
-                        <li><NavLink className="dropdown-item" to="/PaymentPosting">Payment_Posting</NavLink>
+                        <li><NavLink className="dropdown-item" to="/ClaimScrubbingSubmission">Claim Scrubbing Submission</NavLink>
+                        </li>
+                        <li><NavLink className="dropdown-item" to="/ClaimRejection">Claim Rejectiong</NavLink>
+                        </li>
+                        <li><NavLink className="dropdown-item" to="/EftEra">EFT/ERA</NavLink>
+                        </li>
+                        <li><NavLink className="dropdown-item" to="/Credentialing">Credentialing</NavLink>
+                        </li>
+                        <li><NavLink className="dropdown-item" to="/Audit">Audit/Code Review</NavLink>
+                        </li>
+                        <li><NavLink className="dropdown-item" to="/ManagementOversite">Management Oversite</NavLink>
+                        </li>
+                        <li><NavLink className="dropdown-item" to="/PatientStatement">Patient Statements</NavLink>
                         </li>
                       </ul>
 
