@@ -1,0 +1,50 @@
+.inner-text {
+  text-align: left;
+
+  p {
+    text-align: left;
+    margin: 20px 0 0 0;
+    color: #595959;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+  h2 {
+    color: #253575;
+    font-size: 22px;
+    margin: 26px 0 0 0;
+  }
+}
+
+.service-list {
+  margin: 28px 0 0 0;
+  background: #253575;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+
+      &:hover{
+        background: #0c1e67;
+      }
+      a {
+        text-decoration: none;
+        padding: 10px 15px;
+        border-bottom: 1px solid #0c1e67;
+        color: #fff;
+        display: block;
+      }
+    }
+  }
+}
+
+.active {
+  background: #0c1e67;
+
+  @media (max-width: 991px) {
+    border-radius: 0% !important;
+  }
+}

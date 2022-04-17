@@ -12,7 +12,6 @@ const Homepage = () => {
       <Welcome />
       <Work />
       <OurService />
-      <Footer />
     </>
   )
 }

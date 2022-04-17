@@ -51,13 +51,20 @@ const Nav = () => {
                         About
                       </NavLink>
                     </li>
-                    <li className="nav-item">
-                      <NavLink
-                        className="nav-link"
-                        to="/services"
-                      >
+                    <li className="nav-item dropdown">
+                      <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Services
-                      </NavLink>
+                      </a>
+
+                      <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><NavLink className="dropdown-item" to="/Revenue_Cycle_Management">Revenue_Cycle_Management</NavLink>
+                        </li>
+                        <li><NavLink className="dropdown-item" to="/Payment_Posting">Payment_Posting</NavLink>
+                        </li>
+                        <li><NavLink className="dropdown-item" to="/Payment_Posting">Payment_Posting</NavLink>
+                        </li>
+                      </ul>
+
                     </li>
                     <li className="nav-item">
                       <NavLink

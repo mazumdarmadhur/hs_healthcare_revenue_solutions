@@ -115,7 +115,6 @@ const Contact = () => {
 
         </div>
       </div>
-      <Footer />
     </>
   )
 }

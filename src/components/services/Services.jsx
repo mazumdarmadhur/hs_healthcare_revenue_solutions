@@ -1,12 +1,12 @@
 import React from 'react'
 import './Services.scss'
-import Footer from '../footer/Footer'
+import Revenue_Cycle_Management from './Revenue_Cycle_Management'
+import Service_list from './Service_list'
 
 const Services = () => {
   return (
     <>
-      <div>Services</div>
-      <Footer />
+      <Revenue_Cycle_Management />
     </>
   )
 }
