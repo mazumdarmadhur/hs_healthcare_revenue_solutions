@@ -1,6 +1,5 @@
 .inner-text {
   text-align: left;
-
   p {
     text-align: left;
     margin: 20px 0 0 0;
@@ -13,6 +12,19 @@
     color: #253575;
     font-size: 22px;
     margin: 26px 0 0 0;
+  }
+
+  ul {
+    margin: 20px 0 0 0;
+    padding: 0 0 0 18px;
+
+    li {
+      color: #595959;
+      font-size: 15px;
+      font-weight: 300;
+      list-style:initial;
+      line-height: 28px;
+    }
   }
 }
 
@@ -29,12 +41,12 @@
 
       .active {
         background: #0c1e67;
-      
+
         @media (max-width: 991px) {
           border-radius: 0% !important;
         }
       }
-      &:hover{
+      &:hover {
         background: #0c1e67;
       }
       a {
@@ -47,4 +59,3 @@
     }
   }
 }
-

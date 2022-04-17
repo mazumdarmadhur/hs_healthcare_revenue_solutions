@@ -8,15 +8,22 @@ const Audit = () => {
         <div className="row ">
           <div className="col-md-8">
             <div class="welcome-area inner-text">
-              <p>After the medical coding process, the various patient profiles that have been created through patient registration can now be updated. Medical codes help trained professionals determine the kind of charges that each patient is required to reimburse a healthcare enterprise of physician with. Therefore, it is imperative that the information posted on patient profiles is extremely accurate.</p>
-              <p>FHRM is firmly committed to providing charge entry and payment posting services that are premised on accuracy and transparency. Our specialist charge entry personnel have extensive experience with medical coding and data entry. We understand that in order to expedite the business process in a healthcare organization, the charge entry and payment posting process must be swift. FHRM's charge entry and payment posting services will ensure satisfaction on the part of the physician and the patient.</p>
-              <h2>The Process</h2>
+              <p>The Audit Department ensures quality by reducing Rejections and error percentage and increase the practice’ reimbursement</p>
+              <h2>Medical Coding Audit</h2>
+              <p>
+                The content management system recommends that practices regularly audit coding practices.
+                There are different auditing techniques that can be applied, but the basic idea is to make certain that the coding process is accurate and meets regulatory requirements.
+                Coding audits can be managed by using a sample of your submitted claims. They can be conducted randomly, or you can target certain types of claims.
+                It is recommended that you should schedule coding audits on a regular basis to maintain acquiescence.
+              </p>
+              <h2>What Are Medical Coding Service?</h2>
+              <p>Coders of medical firstly access each patient’s medical reports and then determine which diagnostic procedure the healthcare provider has performed on the basis of the patient's health. Then they code these procedures ad diagnoses based on a national classification system. Coders then assign a specific/unique alphanumeric code to each procedure and diagnosis. Medical coding services follow these steps when processing claims:</p>
               <ul>
-                <li>The first step of the process includes updating the client's billing system with the relevant patient information. A patient's demographics and charges are entered into the system based on the rules and guidelines preset by the client.</li>
-                <li>The second step involves verifying whether all documents have been submitted electronically. If there are pending documents, the client will be informed immediately.</li>
-                <li>Once the charges have been entered into the respective patient profiles, the audit team at FHRM will check for accuracy, before any claims are filed.</li>
+                <li>A medical coding expert will collect the patient's information then convert it into code and enter the data into the system. The patient information may be in the form of an electronic file or handwritten.</li>
+                <li>Once the data has been entered into the system by the coder, then it is passed on to the appropriate team. Then they add further data such as the doctor’s name, location and timing.</li>
+                <li>Certified coders then translate the diagnostic information and procedural into code. They also make sure that the codes are compatible to avoid rejection in the auditing.</li>
+                <li>Then the final files are sent back to the client for feedback. This helps to refine the service.</li>
               </ul>
-              <p>FHRM's staff is trained in a way that they add value to the process of medical billing. They go beyond data entry and analyze inaccuracies in patient documentation before updating profiles. Our professionals are trained to work quickly and accurately, allowing them to produce results in a timely manner. FHRM also benefits from the use of the latest medical billing software available in the market.</p>
             </div>
           </div>
           <div className="col-md-4">
