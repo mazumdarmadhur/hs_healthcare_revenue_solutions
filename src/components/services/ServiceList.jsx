@@ -7,12 +7,12 @@ import { NavLink } from 'react-router-dom'
 const data = [
     {
         id: 1,
-        link: '/Revenue_Cycle_Management',
+        link: '/RevenueCycleManagement',
         title: 'End to End Revenue Cycle Management',
     },
     {
         id: 2,
-        link: '/Payment_Posting',
+        link: '/PaymentPosting',
         title: 'Payment_Posting',
     },
     {
@@ -23,7 +23,7 @@ const data = [
 ]
 
 
-const Service_list = () => {
+const ServiceList = () => {
     return (
         <>
             <div class="service-list">
@@ -48,4 +48,4 @@ const Service_list = () => {
     )
 }
 
-export default Service_list
+export default ServiceList

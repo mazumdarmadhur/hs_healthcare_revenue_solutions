@@ -13,7 +13,7 @@ const Nav = () => {
               <div className="container-fluid">
                 <a
                   className="navbar-brand"
-                  to="/"
+                  href="/"
                 >
                   HS Healthcare
                 </a>
@@ -57,11 +57,11 @@ const Nav = () => {
                       </a>
 
                       <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><NavLink className="dropdown-item" to="/Revenue_Cycle_Management">Revenue_Cycle_Management</NavLink>
+                        <li><NavLink className="dropdown-item" to="/RevenueCycleManagement">Revenue_Cycle_Management</NavLink>
                         </li>
-                        <li><NavLink className="dropdown-item" to="/Payment_Posting">Payment_Posting</NavLink>
+                        <li><NavLink className="dropdown-item" to="/PaymentPosting">Payment_Posting</NavLink>
                         </li>
-                        <li><NavLink className="dropdown-item" to="/Payment_Posting">Payment_Posting</NavLink>
+                        <li><NavLink className="dropdown-item" to="/PaymentPosting">Payment_Posting</NavLink>
                         </li>
                       </ul>
 

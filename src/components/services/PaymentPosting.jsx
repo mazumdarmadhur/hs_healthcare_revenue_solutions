@@ -1,7 +1,7 @@
 import React from 'react'
-import Service_list from './Service_list'
+import ServiceList from './ServiceList'
 
-const Payment_Posting = () => {
+const PaymentPosting = () => {
     return (
         <>
             <div className="container pb-5 pt-4">
@@ -20,7 +20,7 @@ const Payment_Posting = () => {
                         </div>
                     </div>
                     <div className="col-md-4">
-                        <Service_list />
+                        <ServiceList />
                     </div>
                 </div>
             </div>
@@ -29,4 +29,4 @@ const Payment_Posting = () => {
     )
 }
 
-export default Payment_Posting
+export default PaymentPosting

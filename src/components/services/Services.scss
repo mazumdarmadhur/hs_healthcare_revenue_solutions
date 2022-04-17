@@ -27,6 +27,13 @@
     li {
       list-style: none;
 
+      .active {
+        background: #0c1e67;
+      
+        @media (max-width: 991px) {
+          border-radius: 0% !important;
+        }
+      }
       &:hover{
         background: #0c1e67;
       }
@@ -41,10 +48,3 @@
   }
 }
 
-.active {
-  background: #0c1e67;
-
-  @media (max-width: 991px) {
-    border-radius: 0% !important;
-  }
-}
