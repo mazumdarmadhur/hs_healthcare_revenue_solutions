@@ -43,8 +43,12 @@
   padding-right: 20%;
 }
 
-.work__content .check {
+.text__col .check {
   color: var(--secondary-color);
+  margin-bottom: 5px !important;
+  margin-right: 10px !important;
+  float: left;
+  width: 20px;
 }
 
 .heading__col {

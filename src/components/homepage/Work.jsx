@@ -13,7 +13,7 @@ const Work = () => {
                     {/* TWO COLUMN SECTION STARTS */}
 
                     
-                        <div className="row">
+                        <div className="row mx-auto">
                             <div className="col-md-12 mx-auto">
                             <div className="container mx-auto">
 
@@ -24,22 +24,20 @@ const Work = () => {
                                             Medical Billing
                                         </p>
                                         <p className='my-3 text__col'>
-                                            Amet minim mollit non deserunt ullamco est sit
-                                            aliqua dolor do amet sint. Velit officia
-                                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                        Medical billing is the process of submitting the claims and following up on claims with health insurance companies in order to receive payment for services rendered by a healthcare provider or medical billing companies interaction between a health care provider and the insurance company payor.
                                         </p>
                                         <div className="d-grid gap-2 text__col">
                                             <div>
                                                 <span className='check'><BsFillCheckCircleFill /> </span>
-                                                Amet minim mollit non deserunt
+                                                Verifies the patient’s insurance strictly end to end.
                                             </div>
                                             <div>
                                                 <span className='check'><BsFillCheckCircleFill /> </span>
-                                                Amet minim mollit non deserunt
+                                                Eligibility and policy benefits are thoroughly focused.
                                             </div>
                                             <div>
                                                 <span className='check'><BsFillCheckCircleFill /> </span>
-                                                Amet minim mollit non deserunt
+                                                Secured and encrypted transmission process.
                                             </div>
                                         </div>
                                     </div>
@@ -56,22 +54,20 @@ const Work = () => {
                                             Revenue Cycle Management
                                         </p>
                                         <p className='my-3 text__col'>
-                                            Amet minim mollit non deserunt ullamco est sit
-                                            aliqua dolor do amet sint. Velit officia
-                                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                                        Revenue Cycle Management (RCM) is the administration of financial transactions that result from the medical encounters between a provider and a patient, facility, and/or supplier. These transactions include- without limitation, billing, payer contracting, collections, provider enrollment, coding, data analytics, management, and compliance.
                                         </p>
                                         <div className="d-grid gap-2 text__col">
                                             <div>
                                                 <span className='check'><BsFillCheckCircleFill /> </span>
-                                                Amet minim mollit non deserunt
+                                                Submitting claims of billable fees to insurance companies.
                                             </div>
                                             <div>
                                                 <span className='check'><BsFillCheckCircleFill /> </span>
-                                                Amet minim mollit non deserunt
+                                                Properly coding diagnoses and procedures.
                                             </div>
                                             <div>
                                                 <span className='check'><BsFillCheckCircleFill /> </span>
-                                                Amet minim mollit non deserunt
+                                                Examining the necessity of medical services.
                                             </div>
                                         </div>
                                     </div>
