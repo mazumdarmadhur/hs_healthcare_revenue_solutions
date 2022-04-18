@@ -8,15 +8,25 @@ const EftEra = () => {
         <div className="row ">
           <div className="col-md-8">
             <div class="welcome-area inner-text">
-              <p>After the medical coding process, the various patient profiles that have been created through patient registration can now be updated. Medical codes help trained professionals determine the kind of charges that each patient is required to reimburse a healthcare enterprise of physician with. Therefore, it is imperative that the information posted on patient profiles is extremely accurate.</p>
-              <p>FHRM is firmly committed to providing charge entry and payment posting services that are premised on accuracy and transparency. Our specialist charge entry personnel have extensive experience with medical coding and data entry. We understand that in order to expedite the business process in a healthcare organization, the charge entry and payment posting process must be swift. FHRM's charge entry and payment posting services will ensure satisfaction on the part of the physician and the patient.</p>
-              <h2>The Process</h2>
+              <p>EFT and ERA have numerous advantages in medical billing, mostly related to your cash flow, time and medical record accuracy. Electronic Remittance Advice (ERA) is an electronic replacement for paper explanations of benefits and Electronic Funds Transfer (EFT) allows the patients to submit their payments directly to the receivers practice’s bank account.</p>
+              <h2>Benefits of ERA and EFT</h2>
               <ul>
-                <li>The first step of the process includes updating the client's billing system with the relevant patient information. A patient's demographics and charges are entered into the system based on the rules and guidelines preset by the client.</li>
-                <li>The second step involves verifying whether all documents have been submitted electronically. If there are pending documents, the client will be informed immediately.</li>
-                <li>Once the charges have been entered into the respective patient profiles, the audit team at FHRM will check for accuracy, before any claims are filed.</li>
+                <li><strong className='in-heading'>Saving time:</strong>
+                  <p className='in__heading__p'>Explanations Of benefits (EOBs) are often processed manually. Given the high volume of claims that shifts through the medical industry, such manual processes quickly become time-consuming and tedious. Since ERAs are electronic, they are seamless to create and send. The result is invaluable time back for front-office staff to interact directly with patients and complete other projects.</p>
+                </li>
+                <li><strong className='in-heading'>Fewer errors:</strong>
+                  <p className='in__heading__p'>When manually working with a high volume of EOBs, it’s easy to list the incorrect dollar amounts that cause trouble for the organization, patients and to the payers. Switching to an ERA medical billing model can vastly reduce the frequency of these types of errors. Then the result comes are more accurate and comprehensive set of patient billing communication in the medical billing.</p>
+                </li>
+                <li><strong className='in-heading'>Streamlined denials management:</strong>
+                  <p className='in__heading__p'>A small number of denied claims is inescapable for the partnership. The good news with ERAs is that they can group denials and approvals. This grouping matters because, although the approved claims leave a balance for the patient, that balance is still lesser than a full-on denial. Concentrating on denied-claim ERAs means faster revenue.</p>
+                </li>
+                <li><strong className='in-heading'>More cash flow:</strong>
+                  <p className='in__heading__p'>By pairing with ERA, EFT eliminates the cash flow obstacles common with EOBs and paper payments. This combination of EFT and ERA helps patients to know what they owe sooner and can pay it immediately. For, an organization that helps to get cash now instead of later.</p>
+                </li>
+                <li><strong className='in-heading'>Digital accounting records:</strong>
+                  <p className='in__heading__p'>EFT creates an easy to follow electronic payment route, whereas paper payments or EOBs require extra effort on the claimer end to track and link together. The result is a client account history that emits exactly when the patient has paid for which services are provided to them.</p>
+                </li>
               </ul>
-              <p>FHRM's staff is trained in a way that they add value to the process of medical billing. They go beyond data entry and analyze inaccuracies in patient documentation before updating profiles. Our professionals are trained to work quickly and accurately, allowing them to produce results in a timely manner. FHRM also benefits from the use of the latest medical billing software available in the market.</p>
             </div>
           </div>
           <div className="col-md-4">
