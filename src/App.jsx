@@ -8,7 +8,7 @@ import './App.scss';
 const App = () => {
   return (
     <>
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
       <Nav />
       <Routes>
         <Route exact path='/about' element={<About />} />
