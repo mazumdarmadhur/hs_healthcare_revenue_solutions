@@ -22,8 +22,20 @@
       color: #595959;
       font-size: 15px;
       font-weight: 300;
-      list-style:initial;
+      list-style: initial;
       line-height: 28px;
+
+      .in-heading {
+        color: #253575 !important;
+        font-size: 16px !important;
+        font-family: var(--rubik);
+        font-weight: bold !important;
+        padding-bottom: 0px!important;
+        margin-bottom: 0px!important;
+      }
+      .in__heading__p{
+        margin: 0!important;
+      }
     }
   }
 }

@@ -13,7 +13,7 @@ const data = [
     {
         id: 2,
         link: '/PaymentPosting',
-        title: 'PaymentPosting',
+        title: 'Payment Posting',
     },
     {
         id: 3,

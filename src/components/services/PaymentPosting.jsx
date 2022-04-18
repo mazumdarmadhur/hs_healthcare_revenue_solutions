@@ -8,15 +8,27 @@ const PaymentPosting = () => {
                 <div className="row ">
                     <div className="col-md-8">
                         <div class="welcome-area inner-text">
-                            <p>After the medical coding process, the various patient profiles that have been created through patient registration can now be updated. Medical codes help trained professionals determine the kind of charges that each patient is required to reimburse a healthcare enterprise of physician with. Therefore, it is imperative that the information posted on patient profiles is extremely accurate.</p>
-                            <p>FHRM is firmly committed to providing charge entry and payment posting services that are premised on accuracy and transparency. Our specialist charge entry personnel have extensive experience with medical coding and data entry. We understand that in order to expedite the business process in a healthcare organization, the charge entry and payment posting process must be swift. FHRM's charge entry and payment posting services will ensure satisfaction on the part of the physician and the patient.</p>
+                            <p>Payment posting refers to the viewing of the financial picture and payments of medical practices. It also refers to the adding or inserting of payments into the medical billing software. It provides an insight into insurance payments in EOBs, payments from patients, and checks insurance from ERAs.</p>
+                            <p>A well-done payment-posting process can help to identify opportunities to increase revenue by insight into daily trends within the practice. Payment posting has a high potential to increase the profits and smooth out the overall medical billing process, it is important to get a refined process in place.</p>
                             <h2>The Process</h2>
                             <ul>
-                                <li>The first step of the process includes updating the client's billing system with the relevant patient information. A patient's demographics and charges are entered into the system based on the rules and guidelines preset by the client.</li>
-                                <li>The second step involves verifying whether all documents have been submitted electronically. If there are pending documents, the client will be informed immediately.</li>
-                                <li>Once the charges have been entered into the respective patient profiles, the audit team at FHRM will check for accuracy, before any claims are filed.</li>
+                                <li><strong className='in-heading'>EOB and ERA posting and reconcilement:</strong>
+                                <p className='in__heading__p'>Ensure the data from both EOBs and ERAs match payments.</p>
+                                </li>
+                                <li><strong className='in-heading'>Handling denials:</strong>
+                                <p className='in__heading__p'>Report and reroute denied claims to the appropriate denial management team and code for rework and re-submission to payers in a timely manner.</p>
+                                </li>
+                                <li><strong className='in-heading'>Patient responsibility:</strong>
+                                <p className='in__heading__p'>Moving balances and identifying the patient's responsibility helps to ensure faster patient billing.</p>
+                                </li>
+                                <li><strong className='in-heading'>Write-offs and adjustments:</strong>
+                                <p className='in__heading__p'>Process write-offs and adjustments of the report any unusual contractual adjustments while processing payment.</p>
+                                </li>
+                                <li><strong className='in-heading'>In-person collection issues:</strong>
+                                <p className='in__heading__p'>Provide inputs on trends in denials, prior authorizations, non-covered services and deductibles or co-payment collection problems face at the point of service.</p>
+                                </li>
                             </ul>
-                            <p>FHRM's staff is trained in a way that they add value to the process of medical billing. They go beyond data entry and analyze inaccuracies in patient documentation before updating profiles. Our professionals are trained to work quickly and accurately, allowing them to produce results in a timely manner. FHRM also benefits from the use of the latest medical billing software available in the market.</p>
+                            <p>We are trained in such a way that we add value to the process of medical billing. We go beyond the data entry and analyze the inaccuracies in patient documentation before updating and completing the profiles. We make sure that we could work quickly and accurately, allowing us to produce the results in a timely manner. We also take the benefits from the use of the latest medical billing software available in the market.</p>
                         </div>
                     </div>
                     <div className="col-md-4">

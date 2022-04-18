@@ -43,7 +43,7 @@ const data = [
         id: 6,
         image: Audit ,
         card_title: 'Audit',
-        card_text: 'Amet minim mollit non deserunt ullamco est sit'
+        card_text: 'The Audit Department ensures quality by reducing Rejections and error percentage and increase the practice reimbursement'
     },
     {
         id: 7,
