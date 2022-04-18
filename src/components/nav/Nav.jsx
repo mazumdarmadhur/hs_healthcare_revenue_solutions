@@ -1,6 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Logo from '../../assets/logo.svg';
+import Logo2 from '../../assets/logo2.svg';
+import Logo3 from '../../assets/logo3.svg';
 import "./Nav.scss";
 
 const Nav = () => {
@@ -16,7 +19,7 @@ const Nav = () => {
                   className="navbar-brand"
                   href="/"
                 >
-                  HS Healthcare
+                  <img src={Logo3} alt="" width="50" height="30" className="img-fluid d-inline-block align-text-top"/>
                 </a>
                 <button
                   className="navbar-toggler"
