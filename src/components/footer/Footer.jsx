@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './Footer.scss'
+import { ImArrowRight2 } from 'react-icons/im'
 
 const Footer = () => {
   return (
@@ -12,7 +13,8 @@ const Footer = () => {
             <div className="col-md-3 col-lg-3 col-xl-3 col-10 mx-auto main__col">
               <h5 className="font-weight-bold mt-3 mb-4">About</h5>
               <p className='about_para'>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+              We are a high yield and technology-empowered Healthcare RCM outsourcing company that provides medical billing and medical coding services. 
+              <NavLink to='/about' className='arrow__about'> <ImArrowRight2/></NavLink>
               </p>
             </div>
 

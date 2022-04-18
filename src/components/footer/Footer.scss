@@ -1,23 +1,23 @@
 .main__col {
   h5 {
-    font-family: var(--head-font);
+    font-family: var(--rubik);
     color: #000;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 26px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.05em;
     text-transform: capitalize;
   }
   .about_para {
     color: #828282;
-    font-family: var(--font-base);
+    font-family: var(--rubik);
     font-style: normal;
     font-weight: 400;
+    padding-top: 10px!important;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 0.25em;
-    text-transform: uppercase;
   }
 }
 
@@ -56,4 +56,11 @@
         text-decoration: underline;
     }
   }
+}
+.arrow__about{
+  color: var(--secondary-color);
+  margin-bottom: 5px !important;
+  margin-right: 10px !important;
+  width: 20px;
+  text-decoration: none!important;
 }
