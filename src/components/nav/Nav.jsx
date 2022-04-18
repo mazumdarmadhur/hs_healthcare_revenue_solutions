@@ -1,8 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Logo from '../../assets/logo.svg';
-import Logo2 from '../../assets/logo2.svg';
 import Logo3 from '../../assets/logo3.svg';
 import "./Nav.scss";
 

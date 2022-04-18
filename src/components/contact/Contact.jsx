@@ -1,6 +1,5 @@
 import React from 'react'
 import './Contact.scss'
-import Footer from '../footer/Footer'
 import { HiLocationMarker } from 'react-icons/hi';
 import { IoMdMail } from 'react-icons/io';
 import { IoIosCall } from 'react-icons/io';

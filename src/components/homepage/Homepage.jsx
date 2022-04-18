@@ -1,14 +1,14 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 import './Homepage.scss'
 import Welcome from './Welcome'
 import Work from './Work'
 import OurService from './OurService'
-import Footer from '../footer/Footer'
+import Slider from './Slider'
 
 const Homepage = () => {
   return (
     <>
+      <Slider />
       <Welcome />
       <Work />
       <OurService />

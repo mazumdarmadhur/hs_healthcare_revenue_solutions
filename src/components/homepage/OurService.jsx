@@ -8,7 +8,6 @@ import Management_oversite from '../../assets/management-oversite.svg'
 import Patient_statement from '../../assets/patient-statement.svg'
 import Rcm_service from '../../assets/rcm-service.svg'
 import { NavLink } from "react-router-dom";
-import { RiArrowRightSLine } from 'react-icons/ri'
 
 const data = [
     {
