@@ -35,25 +35,25 @@ const data = [
     },
     {
         id: 5,
-        image: Credentialing ,
+        image: Credentialing,
         card_title: 'Credentialing',
         card_text: 'Amet minim mollit non deserunt ullamco est sit'
     },
     {
         id: 6,
-        image: Audit ,
+        image: Audit,
         card_title: 'Audit',
         card_text: 'The Audit Department ensures quality by reducing Rejections and error percentage and increase the practice reimbursement'
     },
     {
         id: 7,
-        image: Management_oversite ,
+        image: Management_oversite,
         card_title: 'management oversite',
         card_text: 'Amet minim mollit non deserunt ullamco est sit'
     },
     {
         id: 8,
-        image: Patient_statement ,
+        image: Patient_statement,
         card_title: 'Patient statements',
         card_text: 'Amet minim mollit non deserunt ullamco est sit'
     },
@@ -65,10 +65,9 @@ const OurService = () => {
             <div className="my-5">
                 <div className="text-center welcome__heading">Our Services</div>
             </div>
-            <div className="container-fluid mb-5 pt-4">
+            <div className="container mb-5 pt-4">
                 <div className="row">
-                    <div className="col-10 mx-auto">
-
+                    <div className="col-11 mx-auto">
                         <div className="row gy-5">
                             {
                                 data.map(({ id, image, card_title, card_text }) => {

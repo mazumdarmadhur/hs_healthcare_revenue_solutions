@@ -25,7 +25,6 @@ const RevenueCycleManagement = () => {
           </div>
         </div>
       </div>
-
     </>
   )
 }

@@ -6,14 +6,17 @@ import rcm from '../../assets/rcm.svg'
 const Work = () => {
     return (
         <>
-            <div className="my-5 work__bg d-flex align-items-center">
+            <div className="my-5 work__bg ">
                 <div className="py-5">
                     <div className="text-center work__heading pb-5">Here’s what you can expect when you register with HSHRS</div>
 
                     {/* TWO COLUMN SECTION STARTS */}
-                    <div className="container-fluid mt-2 work__content">
+
+                    
                         <div className="row">
-                            <div className="col-10 mx-auto">
+                            <div className="col-md-12 mx-auto">
+                            <div className="container mx-auto">
+
                                 {/* FIRST COLUMN STARTS */}
                                 <div className="row">
                                     <div className="col-md-6 pt-5 pt-lg-0 order-2  d-flex justify-content-center flex-column">
@@ -77,7 +80,7 @@ const Work = () => {
                                     </div>
                                 </div>
                                 {/* SECOND COLUMN ENDS */}
-                            </div>
+                                </div>
                         </div>
                     </div>
                     {/* TWO COLUMN SECTION ENDS */}
