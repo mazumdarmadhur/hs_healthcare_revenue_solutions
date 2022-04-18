@@ -23,6 +23,9 @@ const Footer = () => {
 
               <ul className="list-unstyled ">
                 <li>
+                  <NavLink to="/" className="footer__list">Home</NavLink>
+                </li>
+                <li>
                   <NavLink to="/about" className="footer__list">About</NavLink>
                 </li>
                 <li>
@@ -38,16 +41,16 @@ const Footer = () => {
 
               <ul class="list-unstyled">
                 <li>
-                  <a href="#!" className="footer__list">Link 1</a>
+                  <NavLink to="/RevenueCycleManagement" className="footer__list">RCM</NavLink>
                 </li>
                 <li>
-                  <a href="#!" className="footer__list">Link 2</a>
+                <NavLink to="/ClaimScrubbingSubmission" className="footer__list">Claim Submission</NavLink>
                 </li>
                 <li>
-                  <a href="#!" className="footer__list">Link 3</a>
+                <NavLink to="/PaymentPosting" className="footer__list">Payment posting</NavLink>
                 </li>
                 <li>
-                  <a href="#!" className="footer__list">Link 4</a>
+                <NavLink to="/EftEra" className="footer__list">EFT/ERA</NavLink>
                 </li>
               </ul>
             </div>
@@ -59,16 +62,16 @@ const Footer = () => {
 
               <ul class="list-unstyled">
                 <li>
-                  <a href="#!" className="footer__list">Link 1</a>
+                <NavLink to="/Credentialing" className="footer__list">Credentialing</NavLink>
                 </li>
                 <li>
-                  <a href="#!" className="footer__list">Link 2</a>
+                <NavLink to="/Audit" className="footer__list">Audit</NavLink>
                 </li>
                 <li>
-                  <a href="#!" className="footer__list">Link 3</a>
+                <NavLink to="/ManagementOversite" className="footer__list">management oversite</NavLink>
                 </li>
                 <li>
-                  <a href="#!" className="footer__list">Link 4</a>
+                <NavLink to="/PatientStatement" className="footer__list">Patient statements</NavLink>
                 </li>
               </ul>
             </div>
@@ -76,7 +79,7 @@ const Footer = () => {
           </div>
         </div>
         <div class="footer__copyright text-center py-3">© 2020 Copyright:
-          <NavLink to="/" className="copyright__link"> hshcrs.com</NavLink>
+          <NavLink to="/" className="copyright__link">hshcrs.com</NavLink>
         </div>
       </div>
 
