@@ -8,15 +8,19 @@ const ClaimScrubbingSubmission = () => {
         <div className="row ">
           <div className="col-md-8">
             <div class="welcome-area inner-text">
-              <p>After the medical coding process, the various patient profiles that have been created through patient registration can now be updated. Medical codes help trained professionals determine the kind of charges that each patient is required to reimburse a healthcare enterprise of physician with. Therefore, it is imperative that the information posted on patient profiles is extremely accurate.</p>
-              <p>FHRM is firmly committed to providing charge entry and payment posting services that are premised on accuracy and transparency. Our specialist charge entry personnel have extensive experience with medical coding and data entry. We understand that in order to expedite the business process in a healthcare organization, the charge entry and payment posting process must be swift. FHRM's charge entry and payment posting services will ensure satisfaction on the part of the physician and the patient.</p>
-              <h2>The Process</h2>
+              <p>Medical insurance claim submission is one of the major key steps in the medical billing process. It determines the total amount of reimbursement that will be receive to the healthcare provider after the insurance company clears the dues.Claim submissions/scrubbing have to be correct in order to avoid reimbursement delays in the medical billing process. We can work with any EMR and have the expertise and experience to execute all aspects of RCM and be compatible with your current EMR.</p>
+              <h2>Collecting Receipts</h2>
+              <p>The first step is to gather the itemized bill from the healthcare provider listing all services provided by them to the patient along with the cost and relevant code of the treatment provided. We will assist you in collecting all the required documents and receipts.</p>
+              <h2>Filling Claim Form</h2>
+              <p>The claim form mentions the details that are related to the patient's illness and the services which were provided to them. It also determines if all or which expenses were claimed under the client's insurance plan or not. We can help you to fill the claim form with the following details. </p>
               <ul>
-                <li>The first step of the process includes updating the client's billing system with the relevant patient information. A patient's demographics and charges are entered into the system based on the rules and guidelines preset by the client.</li>
-                <li>The second step involves verifying whether all documents have been submitted electronically. If there are pending documents, the client will be informed immediately.</li>
-                <li>Once the charges have been entered into the respective patient profiles, the audit team at FHRM will check for accuracy, before any claims are filed.</li>
+                <li>Personal information (Name, Address, and DOB)</li>
+                <li>Insurance policy number</li>
+                <li>Background information and reason for visit</li>
+                <li>Healthcare provider's name and address</li>
+                <li>Any expenses details which the patient has already paid</li>
               </ul>
-              <p>FHRM's staff is trained in a way that they add value to the process of medical billing. They go beyond data entry and analyze inaccuracies in patient documentation before updating profiles. Our professionals are trained to work quickly and accurately, allowing them to produce results in a timely manner. FHRM also benefits from the use of the latest medical billing software available in the market.</p>
+              <p>After all the claim details are entered into the medical billing software, we will then make a copy of all the forms and documents as a backup in the system. We will then thoroughly review all the details and then make any kind of corrections that is necessary to make the details appropriate. When all the details are correct and completed and the required documents are attached, then we submit the claim form to the insurance company.</p>
             </div>
           </div>
           <div className="col-md-4">
