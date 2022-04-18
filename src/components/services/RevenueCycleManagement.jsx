@@ -1,7 +1,10 @@
 import React from 'react'
+import { TabTitle } from '../util/GeneralFunctions'
 import ServiceList from './ServiceList'
 
 const RevenueCycleManagement = () => {
+  TabTitle('RCM Review and Recommendations | HSHCRS');
+
   return (
     <>
       <div className="container pb-5 pt-4">

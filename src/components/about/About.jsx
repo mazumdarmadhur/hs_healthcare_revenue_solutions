@@ -1,8 +1,11 @@
 import React from 'react'
 import './About.scss'
 import imageAbout from '../../assets/imageAbout.svg'
+import { TabTitle } from '../util/GeneralFunctions'
 
 const About = () => {
+  TabTitle('About | HSHCRS')
+
   return (
     <>
       <div className="container my-5 ">

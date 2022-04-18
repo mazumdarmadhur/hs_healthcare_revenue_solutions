@@ -3,8 +3,11 @@ import './Contact.scss'
 import { HiLocationMarker } from 'react-icons/hi';
 import { IoMdMail } from 'react-icons/io';
 import { IoIosCall } from 'react-icons/io';
+import { TabTitle } from '../util/GeneralFunctions';
 
 const Contact = () => {
+  TabTitle('Contact | HSHCRS');
+
   return (
     <>
       <div>

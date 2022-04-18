@@ -1,7 +1,10 @@
 import React from 'react'
+import { TabTitle } from '../util/GeneralFunctions'
 import ServiceList from './ServiceList'
 
 const PaymentPosting = () => {
+    TabTitle('Payment Posting | HSHCRS')
+
     return (
         <>
             <div className="container pb-5 pt-4">

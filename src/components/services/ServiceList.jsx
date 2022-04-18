@@ -8,7 +8,7 @@ const data = [
     {
         id: 1,
         link: '/RevenueCycleManagement',
-        title: 'End to End Revenue Cycle Management',
+        title: 'RCM Review and Recommendations',
     },
     {
         id: 2,
