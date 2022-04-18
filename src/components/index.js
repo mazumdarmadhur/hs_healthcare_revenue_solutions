@@ -12,3 +12,4 @@ export { default as Credentialing } from './services/Credentialing';
 export { default as Audit } from './services/Audit';
 export { default as ManagementOversite } from './services/ManagementOversite';
 export { default as PatientStatement } from './services/PatientStatement';
+export { default as ARCleanUp } from './services/ARCleanUp';

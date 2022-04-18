@@ -50,6 +50,11 @@ const data = [
         link: '/PatientStatement',
         title: 'Patient Statements',
     },
+    {
+        id: 10,
+        link: '/ARCleanUp',
+        title: 'A/R Clean Up',
+    },
 ]
 
 

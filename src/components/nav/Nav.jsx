@@ -79,6 +79,8 @@ const Nav = () => {
                         </li>
                         <li><NavLink className="dropdown-item" to="/PatientStatement">Patient Statements</NavLink>
                         </li>
+                        <li><NavLink className="dropdown-item" to="/ARCleanUp">A/R Clean Up</NavLink>
+                        </li>
                       </ul>
 
                     </li>

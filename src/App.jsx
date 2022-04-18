@@ -2,7 +2,7 @@ import React from 'react';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import { Route, Routes, Navigate } from 'react-router-dom';
-import { About, Contact, Footer, Homepage, Nav, RevenueCycleManagement, PaymentPosting, ClaimScrubbingSubmission, ClaimRejection, EftEra, Credentialing, Audit, ManagementOversite, PatientStatement } from './components';
+import { About, Contact, Footer, Homepage, Nav, RevenueCycleManagement, PaymentPosting, ClaimScrubbingSubmission, ClaimRejection, EftEra, Credentialing, Audit, ManagementOversite, PatientStatement, ARCleanUp } from './components';
 import './App.scss';
 
 const App = () => {
@@ -23,6 +23,7 @@ const App = () => {
         <Route exact path='/Audit' element={<Audit />} />
         <Route exact path='/ManagementOversite' element={<ManagementOversite />} />
         <Route exact path='/PatientStatement' element={<PatientStatement />} />
+        <Route exact path='/ARCleanUp' element={<ARCleanUp />} />
         <Route exact path='*' element={<Navigate replace to='/' />} />
       </Routes>
       <Footer />
