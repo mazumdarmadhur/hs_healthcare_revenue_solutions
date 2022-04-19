@@ -5,6 +5,11 @@
     font-family: var(--rubik);
     font-weight: 800;
 
+    @media only screen and (min-width: 768px) {
+      font-size: 1.9rem !important;
+      text-align: center!important;
+    }
+
     @media only screen and (max-width: 600px) {
       font-size: 1.8rem !important;
       text-align: center!important;

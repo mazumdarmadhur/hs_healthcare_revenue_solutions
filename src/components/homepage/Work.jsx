@@ -19,7 +19,7 @@ const Work = () => {
 
                                 {/* FIRST COLUMN STARTS */}
                                 <div className="row">
-                                    <div className="col-md-6 pt-5 pt-lg-0 order-2  d-flex justify-content-center flex-column">
+                                    <div className="col-lg-6 pt-5 pt-lg-0 order-2  d-flex justify-content-center flex-column">
                                         <p className='heading__col'>
                                             Medical Billing
                                         </p>
@@ -49,7 +49,7 @@ const Work = () => {
 
                                 {/* SECOND COLUMN STARTS */}
                                 <div className="row ">
-                                    <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
+                                    <div className="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                                         <p className='heading__col'>
                                             Revenue Cycle Management
                                         </p>
