@@ -80,8 +80,8 @@ const Footer = () => {
 
           </div>
         </div>
-        <div class="footer__copyright text-center py-3">© 2020 Copyright:
-          <NavLink to="/" className="copyright__link">hshcrs.com</NavLink>
+        <div class="footer__copyright text-center py-3">© 2020 Copyright: 
+          <NavLink to="/" className="copyright__link"> hshcrs.com</NavLink>
         </div>
       </div>
 
