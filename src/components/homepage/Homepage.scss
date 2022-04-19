@@ -7,6 +7,10 @@
   line-height: 40px;
   letter-spacing: 0.2em;
   color: var(--secondary-color);
+
+  @media only screen and (max-width: 600px) {
+    font-size: 1.8rem !important;
+  }
 }
 
 .welcome__text {
@@ -17,6 +21,12 @@
   text-align: center;
   letter-spacing: 0.25em;
   text-transform: capitalize;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 16px !important;
+    line-height: 27px;
+    text-align: left !important;
+  }
 
   .know__more {
     font-weight: 700 !important;
@@ -44,6 +54,13 @@
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 2.1rem !important;
+    line-height: 40px;
+    padding-left: 10%!important;
+    padding-right: 10%!important;
+  }
 }
 
 .text__col .check {
