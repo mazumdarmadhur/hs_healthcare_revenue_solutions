@@ -103,7 +103,7 @@ const Contact = () => {
                     <a href="mailto:info@hshcrs.com"><span className='check'><IoMdMail /> </span> info@hshcrs.com</a>
                   </div>
                   <div className='links__phone'>
-                    <a href="skype:live:.cid.e9f270f370577de?userinfo"><span className='check'><ImSkype /> </span>SKYPE ID</a>
+                    <a href="skype:live:.cid.e9f270f370577de?userinfo"><span className='check'><ImSkype /> </span>info.skype</a>
                   </div>
                 </div>
                 <div class="m-t-25"><strong class="in-heading">Support</strong>
@@ -111,7 +111,7 @@ const Contact = () => {
                     <a href="mailto:support@hshcrs.com"><span className='check'><IoMdMail /> </span> support@hshcrs.com</a>
                   </div>
                   <div className='links__phone'>
-                    <a href="skype:live:.cid.e9f270f370577de?userinfo"><span className='check'><ImSkype /> </span>SKYPE ID</a>
+                    <a href="skype:live:.cid.e9f270f370577de?userinfo"><span className='check'><ImSkype /> </span>support.skype</a>
                   </div>
                 </div>
               </div>
