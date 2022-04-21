@@ -88,7 +88,7 @@ const OurService = () => {
                             {
                                 data.map(({ id, image, card_title, link, card_text }) => {
                                     return (
-                                        <div className="col-md-4 col-sm-6 col-10-mx-auto">
+                                        <div key={id} className="col-md-4 col-sm-6 col-10-mx-auto">
                                             <div className="card h-100">
                                                 <span className="img__bg">
                                                     <img src={image} className="card-img-top mx-auto d-block my-4" alt="Claim" />

@@ -11,21 +11,21 @@ const App = () => {
       <ScrollToTop />
       <Nav />
       <Routes>
-        <Route exact path='/about' element={<About />} />
-        <Route exact path='/' element={<Homepage />} />
-        <Route exact path='/contact' element={<Contact />} />
-        <Route exact path='/footer' element={<Footer />} />
-        <Route exact path='/RevenueCycleManagement' element={<RevenueCycleManagement />} />
-        <Route exact path='/PaymentPosting' element={<PaymentPosting />} />
-        <Route exact path='/ClaimScrubbingSubmission' element={<ClaimScrubbingSubmission />} />
-        <Route exact path='/ClaimRejection' element={<ClaimRejection />} />
-        <Route exact path='/EftEra' element={<EftEra />} />
-        <Route exact path='/Credentialing' element={<Credentialing />} />
-        <Route exact path='/Audit' element={<Audit />} />
-        <Route exact path='/ClearingHouseEnrollment' element={<ClearingHouse />} />
-        <Route exact path='/PatientStatement' element={<PatientStatement />} />
-        <Route exact path='/ARCleanUp' element={<ARCleanUp />} />
-        <Route exact path='*' element={<Navigate replace to='/' />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/' element={<Homepage />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/footer' element={<Footer />} />
+        <Route path='/RevenueCycleManagement' element={<RevenueCycleManagement />} />
+        <Route path='/PaymentPosting' element={<PaymentPosting />} />
+        <Route path='/ClaimScrubbingSubmission' element={<ClaimScrubbingSubmission />} />
+        <Route path='/ClaimRejection' element={<ClaimRejection />} />
+        <Route path='/EftEra' element={<EftEra />} />
+        <Route path='/Credentialing' element={<Credentialing />} />
+        <Route path='/Audit' element={<Audit />} />
+        <Route path='/ClearingHouseEnrollment' element={<ClearingHouse />} />
+        <Route path='/PatientStatement' element={<PatientStatement />} />
+        <Route path='/ARCleanUp' element={<ARCleanUp />} />
+        <Route path='*' element={<Navigate replace to='/' />} />
       </Routes>
       <Footer />
     </>

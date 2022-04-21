@@ -40,7 +40,6 @@ const Nav = () => {
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                       <li className="nav-item">
                         <NavLink
-                          exact
                           className="nav-link"
                           aria-current="page"
                           to="/"

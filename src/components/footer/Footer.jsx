@@ -36,12 +36,12 @@ const Footer = () => {
               </ul>
             </div>
 
-            <hr class="clearfix w-100 d-md-none" />
+            <hr className="clearfix w-100 d-md-none" />
 
             <div className="col-md-3 col-sm-6 col-10 mx-auto ps-md-5 main__col">
-              <h5 class="font-weight-bold mt-3 mb-4">Services</h5>
+              <h5 className="font-weight-bold mt-3 mb-4">Services</h5>
 
-              <ul class="list-unstyled">
+              <ul className="list-unstyled">
                 <li>
                   <NavLink to="/Credentialing" className="footer__list">Credentialing</NavLink>
                 </li>
@@ -60,13 +60,12 @@ const Footer = () => {
               </ul>
             </div>
 
-            <hr class="clearfix w-100 d-md-none" />
+            <hr className="clearfix w-100 d-md-none" />
 
             <div className="col-md-3 col-sm-6 col-10 mx-auto ps-md-5 main__col">
-              <h5 class="font-weight-bold mt-3 mb-4">Services</h5>
+              <h5 className="font-weight-bold mt-3 mb-4">Services</h5>
 
-              <ul class="list-unstyled">
-
+              <ul className="list-unstyled">
                 <li>
                   <NavLink to="/ClaimRejection" className="footer__list">Claim Rejection</NavLink>
                 </li>
@@ -87,7 +86,7 @@ const Footer = () => {
 
           </div>
         </div>
-        <div class="footer__copyright text-center py-3">© 2020 Copyright:
+        <div className="footer__copyright text-center py-3">© 2020 Copyright:
           <NavLink to="/" className="copyright__link"> hshcrs.com</NavLink>
         </div>
       </div>

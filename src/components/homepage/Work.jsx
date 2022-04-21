@@ -42,7 +42,7 @@ const Work = () => {
                                         </div>
                                     </div>
                                     <div className="col-lg-6 order-1 header-img">
-                                        <img src={medical} alt="Medical Billing" srcset="" className="img-fluid " />
+                                        <img src={medical} alt="Medical Billing" srcSet="" className="img-fluid " />
                                     </div>
                                 </div>
                                 {/* FIRST COLUMN ENDS */}
@@ -72,7 +72,7 @@ const Work = () => {
                                         </div>
                                     </div>
                                     <div className="col-lg-6 order-1 order-lg-2 header-img">
-                                        <img src={rcm} alt="Medical Billing" srcset="" className="img-fluid " />
+                                        <img src={rcm} alt="Medical Billing" srcSet="" className="img-fluid " />
                                     </div>
                                 </div>
                                 {/* SECOND COLUMN ENDS */}
