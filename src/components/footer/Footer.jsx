@@ -13,8 +13,8 @@ const Footer = () => {
             <div className="col-md-3 col-lg-3 col-xl-3 col-10 mx-auto main__col">
               <h5 className="font-weight-bold mt-3 mb-4">About</h5>
               <p className='about_para'>
-              We are a high yield and technology-empowered Healthcare RCM outsourcing company that provides medical billing and medical coding services. 
-              <NavLink to='/about' className='arrow__about'> <ImArrowRight2/></NavLink>
+                We are a high yield and technology-empowered Healthcare RCM outsourcing company that provides medical billing and medical coding services.
+                <NavLink to='/about' className='arrow__about'> <ImArrowRight2 /></NavLink>
               </p>
             </div>
 
@@ -43,16 +43,19 @@ const Footer = () => {
 
               <ul class="list-unstyled">
                 <li>
+                  <NavLink to="/Credentialing" className="footer__list">Credentialing</NavLink>
+                </li>
+                <li>
                   <NavLink to="/RevenueCycleManagement" className="footer__list">RCM</NavLink>
                 </li>
                 <li>
-                <NavLink to="/ClaimScrubbingSubmission" className="footer__list">Claim Submission</NavLink>
+                  <NavLink to="/ClearingHouseEnrollment" className="footer__list">Clearing House Enrollment</NavLink>
                 </li>
                 <li>
-                <NavLink to="/PaymentPosting" className="footer__list">Payment posting</NavLink>
+                  <NavLink to="/EftEra" className="footer__list">EFT/ERA Setup</NavLink>
                 </li>
                 <li>
-                <NavLink to="/EftEra" className="footer__list">EFT/ERA</NavLink>
+                  <NavLink to="/ClaimScrubbingSubmission" className="footer__list">Claim Submission</NavLink>
                 </li>
               </ul>
             </div>
@@ -63,24 +66,28 @@ const Footer = () => {
               <h5 class="font-weight-bold mt-3 mb-4">Services</h5>
 
               <ul class="list-unstyled">
+
                 <li>
-                <NavLink to="/Credentialing" className="footer__list">Credentialing</NavLink>
+                  <NavLink to="/ClaimRejection" className="footer__list">Claim Rejection</NavLink>
                 </li>
                 <li>
-                <NavLink to="/Audit" className="footer__list">Audit</NavLink>
+                  <NavLink to="/Audit" className="footer__list">Audit</NavLink>
                 </li>
                 <li>
-                <NavLink to="/ManagementOversite" className="footer__list">management oversite</NavLink>
+                  <NavLink to="/PaymentPosting" className="footer__list">Payment posting</NavLink>
                 </li>
                 <li>
-                <NavLink to="/PatientStatement" className="footer__list">Patient statements</NavLink>
+                  <NavLink to="/PatientStatement" className="footer__list">Patient statements</NavLink>
+                </li>
+                <li>
+                  <NavLink to="/ARCleanUp" className="footer__list">A/R CleanUp</NavLink>
                 </li>
               </ul>
             </div>
 
           </div>
         </div>
-        <div class="footer__copyright text-center py-3">© 2020 Copyright: 
+        <div class="footer__copyright text-center py-3">© 2020 Copyright:
           <NavLink to="/" className="copyright__link"> hshcrs.com</NavLink>
         </div>
       </div>
