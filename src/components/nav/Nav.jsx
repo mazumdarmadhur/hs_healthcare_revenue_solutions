@@ -66,7 +66,7 @@ const Nav = () => {
                           </li>
                           <li><NavLink className="dropdown-item" to="/RevenueCycleManagement">Revenue Cycle Management</NavLink>
                           </li>
-                          <li><NavLink className="dropdown-item" to="/ManagementOversite">Clearing House Enrollment</NavLink>
+                          <li><NavLink className="dropdown-item" to="/ClearingHouseEnrollment">Clearing House Enrollment</NavLink>
                           </li>
                           <li><NavLink className="dropdown-item" to="/EftEra">EFT/ERA Setup</NavLink>
                           </li>

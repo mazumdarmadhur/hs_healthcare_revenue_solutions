@@ -17,7 +17,7 @@ const data = [
     },
     {
         id: 3,
-        link: '/',
+        link: '/ClearingHouseEnrollment',
         title: 'Clearing House Enrollment',
     },
     {

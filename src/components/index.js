@@ -10,7 +10,7 @@ export { default as ClaimScrubbingSubmission } from './services/ClaimScrubbingSu
 export { default as EftEra } from './services/EftEra';
 export { default as Credentialing } from './services/Credentialing';
 export { default as Audit } from './services/Audit';
-export { default as ManagementOversite } from './services/ManagementOversite';
+export { default as ClearingHouse } from './services/ClearingHouse';
 export { default as PatientStatement } from './services/PatientStatement';
 export { default as ARCleanUp } from './services/ARCleanUp';
 export { default as ScrollToTop } from './ScrollToTop/ScrollToTop';
