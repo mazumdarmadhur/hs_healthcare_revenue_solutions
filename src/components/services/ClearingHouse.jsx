@@ -35,7 +35,6 @@ const ClearingHouse = () => {
                                 <li><strong className='in-heading'>Time-proven implementation methods for a successful EHR transition</strong></li>
                                 <li><strong className='in-heading'>Practice Efficiencies and Cost Savings</strong></li>
                             </ul>
-                            <h2></h2>
                             <p>A healthcare clearinghouse is essentially the middleman between patient, insurer and hospital to manage healthcare payments from end to end. A clearinghouse checks the medical claims for errors, gathers and processes documentation for each patient and passes them on to the insurance provider. Once clean claims are established, then any associated medical records and the claims are sent electronically to all appropriate medical organizations.</p>
                             <p>Clearing Houses simplifies this process extensively, allowing healthcare providers and organizations to coordinate with a single agency rather than with multiple insurance service providers.For reference, at HSHCRS, our clearing house quality control falls into three different categories:</p>
                             <ul>
