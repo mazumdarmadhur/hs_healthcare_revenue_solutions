@@ -16,7 +16,7 @@ const Slider = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="3000">
                         <NavLink to='/contact'>
-                            <img src={slider1} className="d-block w-100" alt="..." />
+                            <img rel="preload" as="image" src={slider1} className="d-block w-100" alt="..." />
                         </NavLink>
                     </div>
                     <div className="carousel-item" data-bs-interval="3000">
