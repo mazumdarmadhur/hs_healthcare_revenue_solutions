@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contact.scss'
-import { HiLocationMarker } from 'react-icons/hi';
+// import { HiLocationMarker } from 'react-icons/hi';
 import { IoMdMail } from 'react-icons/io';
 import { IoIosCall } from 'react-icons/io';
 import { TabTitle } from '../util/GeneralFunctions';
@@ -69,27 +69,27 @@ const Contact = () => {
             <div className="col-md-4 find__bg">
               <div className="d-grid gap-2 text__colo contact__form">
                 <h2>FIND US</h2>
-                <div>
+                {/* <div>
                   <span className='check'><HiLocationMarker /> </span>
                   123 Madison Ave, Suite xyz
                   New York NY 123456
-                </div>
+                </div> */}
 
                 <div class="m-t-25"><strong class="in-heading">SALES</strong>
 
                   <div className='links__phone'>
-                    <a href="mailto:info@hrx.company"><span className='check'><IoMdMail /> </span> hshcrs.com</a>
+                    <a href="mailto:info@hrx.company"><span className='check'><IoMdMail /> </span> info@hshcrs.com</a>
                   </div>
                   <div className='links__phone'>
-                    <a href="tel:877-770-2023"><span className='check'><IoIosCall /> </span>123456789</a>
+                    <a href="tel:877-770-2023"><span className='check'><IoIosCall /> </span>SKYPE ID </a>
                   </div>
                 </div>
                 <div class="m-t-25"><strong class="in-heading">Support</strong>
                   <div className='links__phone'>
-                    <a href="mailto:info@hrx.company"><span className='check'><IoMdMail /> </span> hshcrs.com</a>
+                    <a href="mailto:info@hrx.company"><span className='check'><IoMdMail /> </span> contact@hshcrs.com</a>
                   </div>
                   <div className='links__phone'>
-                    <a href="tel:877-770-2023"><span className='check'><IoIosCall /> </span>123456789</a>
+                    <a href="tel:877-770-2023"><span className='check'><IoIosCall /> </span>SKYPE ID</a>
                   </div>
                 </div>
               </div>

@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Logo3 from '../../assets/logo3.svg';
+// import Logo3 from '../../assets/logo3.svg';
+import Logo from '../../assets/lo.svg';
 import "./Nav.scss";
 
 const Nav = () => {
@@ -18,7 +19,8 @@ const Nav = () => {
                     className="navbar-brand"
                     href="/"
                   >
-                    <img src={Logo3} alt="" width="50" height="30" className="img-fluid d-inline-block align-text-top" />
+                    {/* <img src={Logo3} alt="" width="50" height="30" className="img-fluid d-inline-block align-text-top" /> */}
+                    <img src={Logo} alt="" width="170" height="30" className="img-fluid d-inline-block align-text-top" />
                   </a>
                   <button
                     className="navbar-toggler"
@@ -60,21 +62,21 @@ const Nav = () => {
                         </a>
 
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><NavLink className="dropdown-item" to="/Credentialing">Credentialing</NavLink>
+                          </li>
                           <li><NavLink className="dropdown-item" to="/RevenueCycleManagement">Revenue Cycle Management</NavLink>
                           </li>
-                          <li><NavLink className="dropdown-item" to="/PaymentPosting">Payment Posting</NavLink>
+                          <li><NavLink className="dropdown-item" to="/ManagementOversite">Clearing House Enrollment</NavLink>
+                          </li>
+                          <li><NavLink className="dropdown-item" to="/EftEra">EFT/ERA Setup</NavLink>
                           </li>
                           <li><NavLink className="dropdown-item" to="/ClaimScrubbingSubmission">Claim Scrubbing Submission</NavLink>
                           </li>
                           <li><NavLink className="dropdown-item" to="/ClaimRejection">Claim Rejectiong</NavLink>
                           </li>
-                          <li><NavLink className="dropdown-item" to="/EftEra">EFT/ERA</NavLink>
-                          </li>
-                          <li><NavLink className="dropdown-item" to="/Credentialing">Credentialing</NavLink>
-                          </li>
                           <li><NavLink className="dropdown-item" to="/Audit">Audit/Code Review</NavLink>
                           </li>
-                          <li><NavLink className="dropdown-item" to="/ManagementOversite">Management Oversite</NavLink>
+                          <li><NavLink className="dropdown-item" to="/PaymentPosting">Payment Posting</NavLink>
                           </li>
                           <li><NavLink className="dropdown-item" to="/PatientStatement">Patient Statements</NavLink>
                           </li>

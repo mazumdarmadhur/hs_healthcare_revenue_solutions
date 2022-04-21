@@ -7,33 +7,33 @@ import { NavLink } from 'react-router-dom'
 const data = [
     {
         id: 1,
+        link: '/Credentialing',
+        title: 'Credentialing and Contracting',
+    },
+    {
+        id: 2,
         link: '/RevenueCycleManagement',
         title: 'RCM Review and Recommendations',
     },
     {
-        id: 2,
-        link: '/PaymentPosting',
-        title: 'Payment Posting',
-    },
-    {
         id: 3,
-        link: '/ClaimScrubbingSubmission',
-        title: 'Claim Scrubbing/Submission ',
+        link: '/',
+        title: 'Clearing House Enrollment',
     },
     {
         id: 4,
-        link: '/ClaimRejection',
-        title: 'Claim Rejection',
+        link: '/EftEra',
+        title: 'EFT/ERA Setup ',
     },
     {
         id: 5,
-        link: '/EftEra',
-        title: 'EFT/ERA  ',
+        link: '/ClaimScrubbingSubmission',
+        title: 'Claim Scrubbing/Submission',
     },
     {
         id: 6,
-        link: '/Credentialing',
-        title: 'Credentialing and Contracting',
+        link: '/ClaimRejection',
+        title: 'Claim Rejection',
     },
     {
         id: 7,
@@ -42,8 +42,8 @@ const data = [
     },
     {
         id: 8,
-        link: '/ManagementOversite',
-        title: 'Management Oversite',
+        link: '/PaymentPosting',
+        title: 'Payment Posting',
     },
     {
         id: 9,
