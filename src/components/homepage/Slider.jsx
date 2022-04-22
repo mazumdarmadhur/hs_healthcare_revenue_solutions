@@ -20,7 +20,7 @@ const Slider = () => {
                         </NavLink>
                     </div>
                     <div className="carousel-item" data-bs-interval="3000">
-                        <NavLink to='/PaymentPosting'>
+                        <NavLink to='/RevenueCycleManagement'>
                             <img src={slider2} className="d-block w-100" alt="..." />
                         </NavLink>
                     </div>
