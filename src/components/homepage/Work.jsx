@@ -1,6 +1,6 @@
 import React from 'react'
 import { BsFillCheckCircleFill } from 'react-icons/bs';
-import medical from '../../assets/medical-billing.svg'
+import credentialingHomepage from '../../assets/credentialing_homepage.svg'
 import rcm from '../../assets/rcm.svg'
 
 const Work = () => {
@@ -46,7 +46,7 @@ const Work = () => {
                                         </div>
                                     </div>
                                     <div className="col-lg-6 order-1 header-img">
-                                        <img src={medical} alt="Medical Billing" srcSet="" className="img-fluid " />
+                                        <img src={credentialingHomepage} alt="Medical Billing" srcSet="" className="img-fluid " />
                                     </div>
                                 </div>
                                 {/* FIRST COLUMN ENDS */}

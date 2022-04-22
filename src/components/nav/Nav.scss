@@ -46,21 +46,24 @@
   background-color: #0091dd !important;
 }
 
-.dropdown-menu > li > a {
-  // padding: 8px 15px;
-  border-bottom: 1px solid #eee;
-  line-height: 1.42857143;
-  color: #000 !important;
+.dropdown-menu > li {
+  padding: 4px 0 !important;
 
-  &:hover {
-    background-color: #0091dd !important;
+  a {
+    font-family: var(--rubik);
+    border-bottom: 1px solid #eee;
+    line-height: 1.42857143;
+    color: #000 !important;
+
+    &:hover {
+      background-color: #0091dd !important;
+    }
   }
 }
-
 .navbar-nav {
   li {
     a {
-      padding: 0 20px!important;
+      padding: 0 20px !important;
     }
   }
 }

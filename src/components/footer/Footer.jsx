@@ -86,7 +86,7 @@ const Footer = () => {
 
           </div>
         </div>
-        <div className="footer__copyright text-center py-3">© 2020 Copyright:
+        <div className="footer__copyright text-center py-3">© 2022 Copyright:
           <NavLink to="/" className="copyright__link"> hshcrs.com</NavLink>
         </div>
       </div>

@@ -61,25 +61,25 @@ const Nav = () => {
                         </a>
 
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <li><NavLink className="dropdown-item" to="/Credentialing">Credentialing</NavLink>
+                          <li><NavLink className="dropdown-item service__dropdown" to="/Credentialing">Credentialing</NavLink>
                           </li>
-                          <li><NavLink className="dropdown-item" to="/RevenueCycleManagement">Revenue Cycle Management</NavLink>
+                          <li><NavLink className="dropdown-item service__dropdown" to="/RevenueCycleManagement">Revenue Cycle Management</NavLink>
                           </li>
-                          <li><NavLink className="dropdown-item" to="/ClearingHouseEnrollment">Clearing House Enrollment</NavLink>
+                          <li><NavLink className="dropdown-item service__dropdown" to="/ClearingHouseEnrollment">Clearing House Enrollment</NavLink>
                           </li>
-                          <li><NavLink className="dropdown-item" to="/EftEra">EFT/ERA Setup</NavLink>
+                          <li><NavLink className="dropdown-item service__dropdown" to="/EftEra">EFT/ERA Setup</NavLink>
                           </li>
-                          <li><NavLink className="dropdown-item" to="/ClaimScrubbingSubmission">Claim Scrubbing Submission</NavLink>
+                          <li><NavLink className="dropdown-item service__dropdown" to="/ClaimScrubbingSubmission">Claim Scrubbing Submission</NavLink>
                           </li>
-                          <li><NavLink className="dropdown-item" to="/ClaimRejection">Claim Rejectiong</NavLink>
+                          <li><NavLink className="dropdown-item service__dropdown" to="/ClaimRejection">Claim Rejection</NavLink>
                           </li>
-                          <li><NavLink className="dropdown-item" to="/Audit">Audit/Code Review</NavLink>
+                          <li><NavLink className="dropdown-item service__dropdown" to="/Audit">Audit/Code Review</NavLink>
                           </li>
-                          <li><NavLink className="dropdown-item" to="/PaymentPosting">Payment Posting</NavLink>
+                          <li><NavLink className="dropdown-item service__dropdown" to="/PaymentPosting">Payment Posting</NavLink>
                           </li>
-                          <li><NavLink className="dropdown-item" to="/PatientStatement">Patient Statements</NavLink>
+                          <li><NavLink className="dropdown-item service__dropdown" to="/PatientStatement">Patient Statements</NavLink>
                           </li>
-                          <li><NavLink className="dropdown-item" to="/ARCleanUp">A/R Clean Up</NavLink>
+                          <li><NavLink className="dropdown-item service__dropdown" to="/ARCleanUp">A/R Clean Up</NavLink>
                           </li>
                         </ul>
 
