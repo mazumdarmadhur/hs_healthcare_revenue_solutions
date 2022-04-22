@@ -55,9 +55,9 @@ const data = [
     {
         id: 7,
         image: Management_oversite,
-        card_title: 'management oversite',
-        link:'/ManagementOversite',
-        card_text: 'RCM performance improves when all the billing functions follows common guiding principles.'
+        card_title: 'Clearing House Enrollment',
+        link:'/ClearingHouseEnrollment',
+        card_text: 'Checks the medical claims for errors, gathers and processes documentation passes them on to the insurance provider.'
     },
     {
         id: 8,
